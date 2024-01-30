@@ -5,14 +5,14 @@ import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
 import NavBar from './components/Nav'
 import { Route, Routes } from 'react-router-dom';
+import Particle from "./components/Particle"
 
 
 
 function App() {
   return (
     <>
-  
-      
+     <Particle/>
       <NavBar/>
       <Routes>
         <Route path='/' element={<AboutMe/>}></Route>

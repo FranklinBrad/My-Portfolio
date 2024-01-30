@@ -12,12 +12,18 @@
   },
   "dependencies": {
     "bootstrap": "^5.3.2",
-    "node": "^21.2.0",
+    "node": "^21.6.1",
+    "package-name": "^0.1.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.9.1",
     "react-dom": "^18.2.0",
     "react-icons": "^4.12.0",
-    "react-router-dom": "^6.20.1"
+    "react-router-dom": "^6.20.1",
+    "react-tsparticles": "^2.12.2",
+    "react-type-animation": "^3.2.0",
+    "react-typing-sequence": "^1.1.2",
+    "tsparticles": "^2.0.6",
+    "typewriter-effect": "^2.21.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",
