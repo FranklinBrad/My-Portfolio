@@ -362,7 +362,7 @@ export default function Partical() {
             "type": "image"
           },
           "size": {
-            "value": 12,
+            "value": 10,
             "animation": {
               "count": 0,
               "enable": false,
