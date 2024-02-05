@@ -72,12 +72,12 @@
   }
   .image {
     position: relative;
-    width: 200px;
+    width: 300px;
   }
   
   .imageImg {
     display: block;
-    width: 200px;
+    width: 300px;
   }
   
   .overlay {
@@ -114,6 +114,9 @@
     justify-content: flex-start; 
 
    
+  }
+  .ptag{
+    color:#fff
   }
   
   .portfolio-list li {

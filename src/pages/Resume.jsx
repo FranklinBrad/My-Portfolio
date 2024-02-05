@@ -1,5 +1,7 @@
- import Resume2 from "../images/resume2.png"
+import React from "react";
 import Button from "react-bootstrap/Button";
+import ResumePDF from "../images/Resume.pdf";
+
 function Resume() {
   return (
     <>
@@ -7,10 +9,10 @@ function Resume() {
         <h1>My Resume</h1>
       </div>
       <div className="resdoc">
-        <img className="resumepic" src={Resume2}></img>
+        <iframe title="resume" className="resumepic" src={ResumePDF} width="100%" height="800px"></iframe>
       </div>
       <div className="download">
-        <a href={Resume2} download="resume">
+        <a href={ResumePDF} download="resume">
           <Button variant="secondary">Download Resume</Button>{" "}
         </a>
       </div>
@@ -19,3 +21,4 @@ function Resume() {
 }
 
 export default Resume;
+
