@@ -1,6 +1,9 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
-import ResumePDF from "../images/Resume.pdf";
+import Resumeimg from "../images/resume-1.png";
+import Resumeimg2 from "../images/resume-2.png";
+import resd from "../images/resume.pdf"
+
 
 function Resume() {
   return (
@@ -8,11 +11,16 @@ function Resume() {
       <div className="reshead">
         <h1>My Resume</h1>
       </div>
-      <div className="resdoc">
-        <iframe title="resume" className="resumepic" src={ResumePDF} width="100%" height="800px"></iframe>
+      <div className="resdoc" >
+        <img src={Resumeimg} alt=""  style={{
+        height: "800px", width: "700px"
+      }}/>
+        <img src={Resumeimg2} alt=""style={{
+        height: "800px", width: "700px"
+      }} />
       </div>
       <div className="download">
-        <a href={ResumePDF} download="resume">
+        <a href={resd} download="resume">
           <Button variant="secondary">Download Resume</Button>{" "}
         </a>
       </div>
