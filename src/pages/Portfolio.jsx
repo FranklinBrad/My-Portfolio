@@ -3,7 +3,7 @@ import img1 from "../images/hungrysc.png";
 import img2 from "../images/weathersc.png";
 import img3 from "../images/notesc.png";
 import dbimg from "../images/db.png";
-import img4 from "../images/screenshot.png";
+import img4 from "../images/armory.png";
 import img5 from "../images/giftysc.png";
 
 
