@@ -2,7 +2,7 @@ import React from "react";
 import Button from "react-bootstrap/Button";
 import Resumeimg from "../images/resume-1.png";
 import Resumeimg2 from "../images/resume-2.png";
-import resd from "../images/resume.pdf"
+
 
 
 function Resume() {
@@ -20,7 +20,7 @@ function Resume() {
       }} />
       </div>
       <div className="download">
-        <a href={resd} download="resume">
+        <a href={Resumeimg} download="resume">
           <Button variant="secondary">Download Resume</Button>{" "}
         </a>
       </div>
