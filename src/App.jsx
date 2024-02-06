@@ -1,6 +1,6 @@
 import './App.css';
 import AboutMe from './pages/LandingPage';
-import Contact from './pages/Contact';
+import { Contact } from './pages/Contact';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
 import NavBar from './components/Nav'
@@ -20,11 +20,11 @@ function App() {
         <Route path='/portfolio' element={<Portfolio/>}></Route>
         <Route path='/resume' element={<Resume/>}></Route>
       </Routes>
-<footer className='foot'>
+{/* <footer className='foot'>
   <p>
     2023 all right reserved Franklin Bradley
   </p>
-</footer>
+</footer> */}
 
 
     

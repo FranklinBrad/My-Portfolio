@@ -1,32 +1,38 @@
-import React from 'react';
-import Form from 'react-bootstrap/Form';
-import Button from 'react-bootstrap/Button';
-import Container from 'react-bootstrap/Container';
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
-function Contact() {
+export const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm('service_n7c7szd', 'template_2jnabfm', form.current, {
+        publicKey: '-7pF6Ozhze3iyBn9o',
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
+  };
+
   return (
-    <Container>
-      <h1>Contact Me!</h1>
-      <div>
-        <h2>Send me an email here</h2>
-        <Form action="https://formsubmit.co/franklin1jbradley@gmail.com" method="POST">
-          <Form.Group controlId="formName">
-            <Form.Label>Name</Form.Label>
-            <Form.Control type="text" name="name" placeholder="Enter your name" required />
-          </Form.Group>
-
-          <Form.Group controlId="formEmail">
-            <Form.Label>Email</Form.Label>
-            <Form.Control type="email" name="email" placeholder="Enter your email" required />
-          </Form.Group>
-
-          <Button variant="primary" type="submit">
-            Send
-          </Button>
-        </Form>
-      </div>
-    </Container>
+    <form ref={form} onSubmit={sendEmail} style={{
+        paddingTop: '200PX'
+    }}>
+      <label>Name</label>
+      <input type="text" name="from_name" />
+      <label>Email</label>
+      <input type="email" name="user_email" />
+      <label>Message</label>
+      <textarea name="message" />
+      <input type="submit" value="Send" />
+    </form>
   );
-}
+};
 
-export default Contact;

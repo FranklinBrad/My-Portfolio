@@ -3,7 +3,7 @@ function NavBar(){
         
         <ul>
             <li>
-            <a href="/">About Me</a>
+            <a href="#abtimg">About Me</a>
             </li>
             <li>
                 <a href="/Portfolio">Portfolio</a>

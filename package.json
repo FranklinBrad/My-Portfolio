@@ -11,6 +11,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.1.0",
     "bootstrap": "^5.3.2",
     "node": "^21.6.1",
     "package-name": "^0.1.0",
