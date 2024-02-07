@@ -94,7 +94,8 @@
     justify-content: center;
     opacity: 0;
     z-index: 100;
-    transition: opacity 0.3s ease; /* Added transition for a smoother effect */
+    transition: opacity 0.3s ease;
+    padding: 5px;
   }
   
   .image:hover .overlay {
@@ -139,10 +140,3 @@ body {
   flex: 1;
 }
 
-.foot {
-  text-align: center;
-  padding: 10px;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}

@@ -9,7 +9,7 @@ function Resume() {
   return (
     <>
       <div className="reshead">
-        <h1>My Resume</h1>
+        <h1 style={{color:"white"}}>My Resume</h1>
       </div>
       <div className="resdoc" >
         <img src={Resumeimg} alt=""  style={{
