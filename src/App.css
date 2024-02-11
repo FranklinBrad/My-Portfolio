@@ -140,3 +140,14 @@ body {
   flex: 1;
 }
 
+
+
+.resdoc-container {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.download {
+  margin-top: 1000px; 
+}
