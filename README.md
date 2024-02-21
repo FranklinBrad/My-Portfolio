@@ -12,9 +12,10 @@
  
   You open the front page and read the about me section, then you have the option to view my github orlinked in profile. If you go to the nav bar you will see options for , portfoilio, resume, and contact me. You can then visit any page as needed.
 
-  ## sources
+  ## Screen Shots
+  ![portfoilio](https://github.com/FranklinBrad/My-Portfolio/assets/144159410/81e74219-e529-4e4f-8b28-e8169dcc5677)
 
-I used some boilerplate code given to my class from my teacher. I also used some code snipets from past classwork.
+
 
   ## Questions
 
