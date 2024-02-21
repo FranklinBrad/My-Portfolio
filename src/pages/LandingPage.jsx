@@ -90,6 +90,9 @@ function AboutMe() {
             </a>
           </div>
           <div>
+            <p>Email: Franklin1jbradley@gmail.com</p>
+          </div>
+          <div>
             <div>
               <a
                 style={{
@@ -148,7 +151,10 @@ function AboutMe() {
         >
           Hello, my name is Franklin Bradley. I am 19 and based out of
           Minneapolis. I graduated from the University of Minnesota Full Stack
-          Web Development Program and got my certificate in December of 2023.
+          Web Development Program and got my certificate in December of 2023. In this class we 
+          learned to code under intense deadline pressure and learned to not only work in 
+          front and back end but also got experience working in a development team helping us gain skills 
+          and prepare for a role as a Developer.
           With this class, I have found a passion for coding and am eager to
           pursue a career in Web Development. My main coding language is
           JavaScript, but I am willing to be agile and learn new coding
