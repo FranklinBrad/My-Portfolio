@@ -2,9 +2,9 @@ import React, { useEffect } from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import me2 from "../images/me-photo-2.png";
 import Typewriter from "typewriter-effect";
-import Particles from "react-tsparticles";
-import { loadFull } from "tsparticles";
 import abtimage from "../images/abtme.png";
+import Button from "react-bootstrap/Button";
+import Resumedoc from "../images/MyResume.pdf"
 
 function AboutMe() {
   useEffect(() => {
@@ -124,54 +124,46 @@ function AboutMe() {
         </div>
       </div>
       <div
-        style={{
-          marginTop: "300px",
-          marginBottom: "100px",
-          paddingLeft: "50px",
-          paddingRight: "50px",
-          display: "flex",
-          flexDirection: "row", // Set flex direction to row
-          alignItems: "center",
-          justifyContent: "center",
-        }}
-        id="abtimg"
-        className="abt" class="hidden"
-      >
-        <p
-          style={{
-            backgroundColor: "white",
-            paddingLeft: "10px",
-            paddingRight: "10px",
-            paddingTop: "25px",
-            paddingBottom: "25px",
-            borderRadius: "10px",
-          }}
-          className="abtP"
-         
-        >
-          Hello, my name is Franklin Bradley. I am 19 and based out of
-          Minneapolis. I graduated from the University of Minnesota Full Stack
-          Web Development Program and got my certificate in December of 2023. In this class we 
-          learned to code under intense deadline pressure and learned to not only work in 
-          front and back end but also got experience working in a development team helping us gain skills 
-          and prepare for a role as a Developer.
-          With this class, I have found a passion for coding and am eager to
-          pursue a career in Web Development. My main coding language is
-          JavaScript, but I am willing to be agile and learn new coding
-          languages and skills. Right now I have knowledge in JavaScript, HTML,
-          CSS, Bootstrap, Node, MySQL, MongoDB, and React. Please take a look at
-          some of my work as well as my resume, and feel free to contact me if
-          you have any questions!
-        </p>
-        <img
-          src={abtimage}
-          style={{
-            marginBottom: "200px",
-          }}
-          className="abtimg"
-          alt="Franklin Bradley2"
-        />
-      </div>
+  style={{
+    marginTop: "300px",
+    marginBottom: "100px",
+    paddingLeft: "50px",
+    paddingRight: "50px",
+    display: "flex",
+    flexDirection: "row", // Set flex direction to row
+    alignItems: "center",
+    justifyContent: "center",
+  }}
+  id="abtimg"
+  className="abt" class="hidden"
+>
+  <p
+    style={{
+      backgroundColor: "white",
+      paddingLeft: "10px",
+      paddingRight: "10px",
+      paddingTop: "25px",
+      paddingBottom: "25px",
+      borderRadius: "10px",
+    }}
+    className="abtP"
+  >
+    Hello, my name is Franklin Bradley. I am 19 and based out of Minneapolis. I graduated from the University of Minnesota Full Stack Web Development Program and got my certificate in December of 2023. In this class we learned to code under intense deadline pressure and learned to not only work in front and back end but also got experience working in a development team helping us gain skills and prepare for a role as a Developer. With this class, I have found a passion for coding and am eager to pursue a career in Web Development. My main coding language is JavaScript, but I am willing to be agile and learn new coding languages and skills. Right now I have knowledge in JavaScript, HTML, CSS, Bootstrap, Node, MySQL, MongoDB, and React. Please take a look at some of my work as well as my resume, and feel free to contact me if you have any questions!
+    <br /> 
+    <a href={Resumedoc} download="resume" style={{backgroundColor:"grey"}}>
+      <Button variant="secondary">Download Resume</Button>{" "}
+    </a>
+  </p>
+
+  <img
+    src={abtimage}
+    style={{
+      marginBottom: "200px",
+    }}
+    className="abtimg"
+    alt="Franklin Bradley2"
+  />
+</div>
     </>
   );
 }
