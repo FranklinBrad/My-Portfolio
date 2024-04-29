@@ -5,6 +5,7 @@ import img3 from "../images/notesc.png";
 import dbimg from "../images/db.png";
 import img4 from "../images/armory.png";
 import img5 from "../images/giftysc.png";
+import img6 from "../images/bookshelf.png"
 
 
 function Portfolio() {
@@ -53,6 +54,20 @@ function Portfolio() {
             <p className="ptag">Role: Sole Developer</p>
             <p className="ptag">Tech Used: JavaScript | CSS | HTML | BootStrap | Node | Express</p>
             <a href="https://github.com/FranklinBrad/Note-Taker-App">link to repo</a>
+            </a>
+          </li>
+          <li>
+          <a href="https://ontheshelfapp.netlify.app/">
+            <div className="image">
+              <img src={img6} alt="img1" className="imageImg" />
+              <div className="overlay">
+                <div className="overlayTitle">BookShelf</div>
+                <div className="overlayP">This App allows you to save and rate your favorite books from 1-5 stars, it also allows you to save books "on the shelf" that you want to read later</div>
+              </div>
+            </div>
+            <p className="ptag">Role: Sole Developer</p>
+            <p className="ptag">Tech Used: React.js | JavaScript | CSS | HTML | BootStrap | Vite | Open Library Api |</p>
+            <a href="https://github.com/FranklinBrad/On-The-Shelf">link to repo</a>
             </a>
           </li>
         </ul>
